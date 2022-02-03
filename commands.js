@@ -56,7 +56,7 @@ const list = () => {
     }
 
     userDetails.forEach(element => {
-        console.log(element);
+        console.log(`[username :${element.username} email: ${element.email} address: ${element.address}]`);
     });
 
     
