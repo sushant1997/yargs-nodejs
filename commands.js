@@ -55,11 +55,11 @@ const list = () => {
         return []
     }
 
-    lists = userDetails.forEach((element) => {
-        console.log('Username: ' + element.username);
-        console.log('Email: ' + element.email);
-        console.log('Address: ' + element.address);
+    userDetails.forEach(element => {
+        console.log(element);
     });
+
+    
 
 }
 
